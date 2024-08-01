@@ -3,14 +3,15 @@ class Lop
 {
   public static void main(String[]args)
   {
-   int a,b;
+   int a,b,c;
    Scanner sc=new Scanner(System.in);
-   System.out.println("Enter a,b values:");
+   System.out.println("Enter a,b,c values:");
    a=sc.nextInt();
    b=sc.nextInt();
-   System.out.println((a>b)&&(a!=b));
-   System.out.println((a<=b)||(a==b));
-   System.out.println((a!=b)&&(!(a>b)));
+   c=sc.nextInt();
+   System.out.println((a>b)&&(a!=c));
+   System.out.println((a<=c)||(a==b));
+   System.out.println((a!=b)&&(!(a>c)));
   }
 }
    
