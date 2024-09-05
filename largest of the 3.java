@@ -4,8 +4,8 @@ class Largest
    public static void main(String[]args)
    {
       int a,b,c;
+      Scanner sc=new Scanner(System.in);   
       System.out.println("enter a, b, c values: ");
-      Scanner sc=new Scanner(System.in);
       a=sc.nextInt();
       b=sc.nextInt();
       c=sc.nextInt();
