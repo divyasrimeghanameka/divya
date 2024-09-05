@@ -15,7 +15,7 @@ n value in int: 10
 n value in double: 10.0
   //explicit type conversion:
 import java.util.*;
-class Wide
+class Narrow
 {
     public static void main(String args[])
     {
