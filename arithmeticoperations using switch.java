@@ -1,5 +1,5 @@
 import java.util.*;
-class Largest
+class Arithmetic
 {
    public static void main(String[]args)
    {
