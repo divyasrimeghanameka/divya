@@ -1,0 +1,23 @@
+import java.util.*;
+ class Data_types
+ {  
+   static int i;
+   static boolean bool;
+   static byte b;
+   static float f;
+   static double d;
+   static char c;
+   static long l;
+   static short s;
+   public static void main(String args[])
+   { 
+    System.out.println("integer default value is "+i);
+    System.out.println("boolean default value is "+bool);
+    System.out.println("byte default value is "+b);
+    System.out.println("float default value is "+f);
+    System.out.println("double default value is "+d);
+    System.out.println("char default value is "+c);
+    System.out.println("long default value is "+l);
+    System.out.println("short default value is "+s);
+   }
+ }
