@@ -1,0 +1,10 @@
+import java.util.*;
+class Obj
+{
+    int n=5;
+    public static void main(String[]args)
+    {
+        Obj myobject=new Obj();
+        System.out.println("The value of n is "+myobject.n);
+    }
+}
