@@ -2,7 +2,7 @@ import java.util.*;
  
 class Palindrome
 {
-   static int rev(int n, int temp)
+   public static int rev(int n, int temp)
    {
      if (n == 0)
        return temp;
