@@ -1,0 +1,28 @@
+import java.lang.*;
+class User
+{
+    public static void validate(int age)
+    {
+        if(age<18)
+        {
+            throw new ArithmeticException("not eligble");
+        }
+        else
+        {
+            System.out.println("eligible");
+        }
+    }
+    public static void main(String[]args)
+    {
+        validate(18);
+        validate(19);
+        validate(17);
+    }
+}
+output
+eligible
+eligibleERROR!
+
+Exception in thread "main" java.lang.ArithmeticException: not eligble
+	at User.validate(User.java:8)
+	at User.main(User.java:19)
