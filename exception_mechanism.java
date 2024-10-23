@@ -1,4 +1,4 @@
-import java.io.IOException;
+import java.lang.*;
 class Except
 {
     public static void main(String[]args)
