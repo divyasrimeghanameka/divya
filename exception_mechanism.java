@@ -37,4 +37,8 @@ class Except
             }
         }
 }
+output
+    java.lang.ArrayIndexOutOfBoundsException: Index 7 out of bounds for length 5
+finally block executed
+eligible
 
