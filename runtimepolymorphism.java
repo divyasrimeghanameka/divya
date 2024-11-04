@@ -18,3 +18,5 @@ class Bike extends Vehicle
         b.run();
     }
 }
+output:
+bike is running
