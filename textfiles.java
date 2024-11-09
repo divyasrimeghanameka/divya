@@ -19,7 +19,7 @@ public class fis
     {
         FileInputStream fis=new FileInputStream("bbc.txt");
         int data;
-        while((data=fis.read()!=-1);
+        while((data=fis.read())!=-1);
         {
              System.out.println("data:"+(char)data));
         }
