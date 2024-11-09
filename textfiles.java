@@ -18,8 +18,11 @@ public class fis
     public static void main(String[]args)throws FileNotFoundException,IOException
     {
         FileInputStream fis=new FileInputStream("bbc.txt");
-        fis.read();
-        System.out.println(fis.read());
+        int data;
+        while((data=fis.read()!=-1);
+        {
+             System.out.println("data:"+(char)data));
+        }
         fis.close();
     }
 }
