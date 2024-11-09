@@ -57,9 +57,9 @@ public class Excep
 {
     public static void main(String[]args)
     {
-        MorningThread t1=new MorningThread();
-        HelloThread t2=new HelloThread();
-        WelcomeThread t3=new WelcomeThread();
+        Morning t1=new Morning();
+        Hello t2=new Hello();
+        Welcome t3=new Welcome();
         t1.start();
         t2.start();
         t3.start();
