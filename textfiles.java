@@ -21,7 +21,7 @@ public class fis
         int data;
         while((data=fis.read())!=-1)
         {
-             System.out.println("data:"+(char)data));
+             System.out.println("data:"+(char)data);
         }
         fis.close();
     }
