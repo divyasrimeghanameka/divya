@@ -33,8 +33,7 @@ public class RijndaelAlgorithm
  {
  Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
  cipher.init(Cipher.DECRYPT_MODE, key, iv);
- byte[] decryptedBytes =
- cipher.doFinal(Base64.getDecoder().decode(cipherText));
+ byte[] decryptedBytes = cipher.doFinal(Base64.getDecoder().decode(cipherText));
  return new String(decryptedBytes, "UTF-8");
  }
  public static void main(String[] args) 
