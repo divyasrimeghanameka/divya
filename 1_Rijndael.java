@@ -21,8 +21,7 @@ public class RijndaelAlgorithm
  return new IvParameterSpec(iv);
  }
  
- public static String encrypt(String plainText, SecretKey key,
- IvParameterSpec iv) throws Exception 
+ public static String encrypt(String plainText, SecretKey key, IvParameterSpec iv) throws Exception 
  {
  Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
  cipher.init(Cipher.ENCRYPT_MODE, key, iv);
@@ -30,8 +29,7 @@ public class RijndaelAlgorithm
  return Base64.getEncoder().encodeToString(encryptedBytes);
  }
  
- public static String decrypt(String cipherText, SecretKey key,
- IvParameterSpec iv) throws Exception 
+ public static String decrypt(String cipherText, SecretKey key, IvParameterSpec iv) throws Exception 
  {
  Cipher cipher = Cipher.getInstance("AES/CBC/PKCS5Padding");
  cipher.init(Cipher.DECRYPT_MODE, key, iv);
