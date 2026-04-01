@@ -45,10 +45,8 @@ public class RijndaelAlgorithm
  
     SecretKey secretKey = generateKey();
     IvParameterSpec iv = generateIV();
-    System.out.println("Rijndael Key (Base64): " +
-    Base64.getEncoder().encodeToString(secretKey.getEncoded()));
-    System.out.println("IV (Base64) : " +
-    Base64.getEncoder().encodeToString(iv.getIV()));
+    System.out.println("Rijndael Key (Base64): " + Base64.getEncoder().encodeToString(secretKey.getEncoded()));
+    System.out.println("IV (Base64) : " + Base64.getEncoder().encodeToString(iv.getIV()));
  
     String encrypted = encrypt(plainText, secretKey, iv);
     System.out.println("Encrypted Text : " + encrypted);
